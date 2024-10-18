@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zindua Alumni</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/fontawesome.min.css" integrity="sha512-B46MVOJpI6RBsdcU307elYeStF2JKT87SsHZfRSkjVi4/iZ3912zXi45X5/CBr/GbCyLx6M1GQtTKYRd52Jxgw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 </head>
@@ -17,21 +17,49 @@
         </div>
         <nav>
             <ul class="nav-links">
-                <li><a href="#">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Jobs</a></li>
+                <li><a href="jobs.html">Jobs</a></li>
             </ul>
         </nav>
-        <a class="cta" href="#"><button>Login</button></a>
+        <a class="cta" href="signin.html"><button>Login</button></a>
     </header>
 
 
     <main>
-
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Your Talent, Their Future:</h1>
+                    <h2>Jobs Awaiting Zindua Alumni</h2>
+                    <p>From startups to global giants, your Zindua Alumni status gives you access to exclusive opportunities. Connect with employers who value your unique skills and experience. Start applying today.</p>
+                    <div class="hero-buttons">
+                        <a href="jobs.html" class="btn-apply">Search for Jobs</a>
+                        <a href="signin.html" class="btn-explore">Register</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="images/undraw_pair_programming_re_or4x.svg" alt="Hero Image">
+                </div>
+            </div>
+        </section>
+        <section class="companies">
+            <h3>Work at top companies</h3>
+            <div class="company-logos">
+                <img src="images/dalberg.png" alt="Dalberg">
+                <img src="images/andela.png" alt="Andela">
+                <img src="images/huawei.png" alt="Huawei">
+                <img src="images/asante.png" alt="Asante">
+                <img src="images/ey.png" alt="EY">
+                <img src="images/leja.png" alt="Leja">
+            </div>
+        </section>
+       
+       
     </main>
 
     <footer>
-        <div class="container">
+        <div class="container-f">
             <div class="footer-content">
                 <h3>Talk to Us</h3>
                 <p>+254(0)768342776 |</p>
@@ -62,6 +90,8 @@
             <p>&copy; 2024 Zindua Coding School LTD. All rights reserved</p>
         </div>
     </footer>
+
+   
 </body>
 
 </html>
