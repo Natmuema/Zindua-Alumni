@@ -15,11 +15,11 @@
                     <h2 class="title">Sign In</h2>
                     <div class="input-field">
                         <i class="bx bxs-user"></i>
-                        <input type="text" placeholder="Username">
+                        <input type="text" id="login-username" placeholder="Username" required>
                     </div>
                     <div class="input-field">
                         <i class="bx bxs-lock"></i>
-                        <input type="password" placeholder="Password">
+                        <input type="password" id="login-password" placeholder="Password" required>
                     </div>
                     <input type="submit" value="Login" class="btn solid">
 
@@ -45,19 +45,22 @@
                     <h2 class="title">Sign Up</h2>
                     <div class="input-field">
                         <i class="bx bxs-user"></i>
-                        <input type="text" placeholder="Username">
+                        <input type="text" id="signup-username" placeholder="Username" required>
                     </div>
                     <div class="input-field">
                         <i class="bx bxs-envelope"></i>
-                        <input type="text" placeholder="Email">
+                        <input type="text" id="signup-email" placeholder="Email" id="email" required>
                     </div>
                     <div class="input-field">
                         <i class="bx bxs-lock"></i>
-                        <input type="password" placeholder="Password">
+                        <input type="password" id="signup-password" placeholder="Password" id="password" required>
                     </div>
+                    <div class="input-field">
+                        <input type="password" placeholder="Confirm Password" id="confirm-password" required />
+                      </div>
                     <input type="submit" value="Sign Up" class="btn solid">
 
-                    <p class="social-text">Or Sign Ip with social platforms</p>
+                    <p class="social-text">Or Sign Up with social platforms</p>
 
                     <div class="social-media">
                         <div class="social-icon">
